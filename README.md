@@ -1,19 +1,58 @@
 # BR-lol
 
-**Uma plataforma para construir melhores oportunidades profissionais.**
+Uma plataforma para construir melhores oportunidades profissionais.
 
-O BR-lol reúne ferramentas para ajudar pessoas a criar currículos, melhorar textos e organizar sua trajetória profissional em um só lugar.
+## Visão geral
 
-### Módulos
+O BR-lol reúne ferramentas para apoiar a jornada profissional de pessoas que precisam:
 
-- **Currículos:** criação, edição, importação e exportação de currículos, com análise de compatibilidade ATS e adaptação para vagas.
-- **Bewrite:** correção, reescrita, tradução e adaptação de textos, preservando as informações e a intenção original.
-- **Quadro visual:** espaço para criar diagramas, mapas mentais, fluxogramas e organizar candidaturas.
+- criar, editar e adaptar currículos;
+- melhorar textos e adaptações para diferentes públicos;
+- organizar a candidatura para vagas e oportunidades;
+- visualizar estratégias, conexões e processo de aplicação.
 
-### Objetivo
+A plataforma é composta por três módulos principais:
 
-Simplificar etapas da busca por oportunidades profissionais, oferecendo ferramentas práticas em uma experiência integrada.
+- Currículos: criação, edição, importação/exportação, análise ATS e adaptação para vagas.
+- Bewrite: correção, reescrita, tradução e adaptação de textos preservando a mensagem original.
+- Quadro visual: canvas para fluxogramas, mapas mentais, diagramas, wireframes e organização de candidaturas.
+
+## Status do repositório
+
+Este repositório está em fase inicial de estruturação e documentação. Ainda não há implementação de produto, componentes de interface, backend, banco de dados ou integrações confirmadas.
+
+O objetivo deste momento é definir:
+
+- contexto do produto;
+- requisitos esperados;
+- arquitetura proposta;
+- riscos e dependências;
+- processo de evolução documental e técnica.
+
+## Estrutura de documentação
+
+- `docs/README.md` — índice e convenções da documentação.
+- `docs/product/overview.md` — visão do produto e contexto.
+- `docs/product/requirements.md` — requisitos funcionais e não funcionais.
+- `docs/architecture/proposal.md` — proposta arquitetural inicial.
+- `docs/architecture/decisions/` — registros de decisões técnicas propostas.
+- `docs/security/baseline.md` — critérios mínimos de segurança.
+- `docs/plan/roadmap.md` — planejamento em etapas.
+- `docs/operations/README.md` — guia operacional do repositório.
+- `AGENTS.md` — instruções permanentes para agentes de código.
+
+## Regras de evolução
+
+- Priorizar documentação e clareza antes de implementação.
+- Não iniciar desenvolvimento de funcionalidades sem aprovação explícita.
+- Manter o repositório organizado, com informações verificáveis e objetivos bem definidos.
+- Registrar incertezas, propostas e decisões pendentes.
+- Preservar o conteúdo existente e evitar alterações sem justificativa técnica.
+
+## Observações
+
+O projeto é uma proposta de produto em evolução. A arquitetura e os requisitos descritos neste repositório devem ser interpretados como base de planejamento, não como implementação final concluída.
 
 ---
 
-<sub>Projeto em fase de planejamento e estruturação.</sub>
+Para começar, consulte a documentação do projeto em `docs/README.md`.
